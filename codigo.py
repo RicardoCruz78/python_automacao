@@ -14,7 +14,7 @@ import time
 # apertar -> pyautogui.hotkey
 # scroll (rolar) -> pyautogui.scroll
 
-pyautogui.PAUSE = 0.8
+pyautogui.PAUSE = 1
 
 # apertar a tecla do windows (comando + barra de espaço)
 pyautogui.press("win")
@@ -34,9 +34,9 @@ pyautogui.press("enter")
 time.sleep(3)
 
 # Passo 2 - Fazer Login
-pyautogui.click(x=519, y=376)
+pyautogui.click(x=459, y=374)
 
-# digitar email
+# digtar email
 pyautogui.write("ricardodacruz1@hotmail.com")
 
 # passar para o campo senha
